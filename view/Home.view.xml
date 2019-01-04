@@ -1,0 +1,58 @@
+<mvc:View id="ampr.df9ry.home"
+	controllerName="ampr.df9ry.controller.Home"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:m="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc">
+	
+	<m:Page id="page" title="{i18n>homePageTitle}">
+		<m:content>
+			<div class="content home">
+				<header class="header"  style="text-align: center;">
+					<h1>DF9RY, Tania in Berlin</h1>
+				</header>
+				<section class="banner">
+					<img src="images/Tania-shooting_web.jpg" alt="Picture of Tania Hagn" />
+					<div class="brief">
+						<ul>
+							<li>Amateurfunklizenz seit 1976</li>
+							<li>Allgemeines Sprechfunkzeugnis für den Flugfunkdienst</li>
+							<li>UKW Sprechfunkzeugnis für die Binnenschiffahrt</li>
+						</ul>
+					</div>
+					<h2>Was interessiert mich am meisten?</h2>
+					<p>
+					Seit meiner Kindheit hat mich der Selbstbau von Geräten und Antennen sehr
+					fasziniert. Berufsbedingt habe ich mich dabei etwas auf die Digitaltechnik
+					spezialisiert, obwohl mich alles analoge auch immer fasziniert hat.
+					Das "RY" in meinem Rufzeichen habe ich mir bei der Prüfung gewünscht weil ich
+					damals hauptsächlich RTTY gemacht habe. Später war ich im OV U17 (Weiden in der
+					Oberpfalz) auch viel über das dortige Amateurfernsehrelais zu sehen.
+					</p>
+					<p>
+					Heute setze ich mich sehr für die Verbreitung der OpenSource Bewegung ein, da
+					es meine Überzeugung ist, dass diese im Gegensatz zur heute vorherrschenden
+					Konsumwirtschaft, sehr nachhaltig ist und daher für das Erbe der Menschheit
+					entscheidend ist. Natürlich sind daher alle meine Projekte OpenSource.
+					</p>
+					<h2>Wo bin ich QRV?</h2>
+					<p>
+					Auf analogen Relais bin ich kaum anzutreffen. Wann immer möglich bin ich
+					jedoch im DMR Netz auf der Talkgroup Berlin/Brandenburg (2621) standby.
+					</p>
+					<p>
+					Viel mehr Spaß macht mir jedoch nach wie vor der Betrieb in SSB, vor allem
+					natürlich auf Kurzwelle. Das ist mir jedoch nur sehr selten gegönnt, da ich
+					wie die Meisten hier in Berlin schwer Antenngeschädigt bin.
+					</p>
+					<h2>Wo kann man mich antreffen?</h2>
+					<p>
+					Wann immer möglich arbeite ich Dienstag abend an meinem Daisy Projekt in den
+					Clubräumen des OV D20. Davon abgesehen bin ich viel mit den Öffentlichen in
+					Berlin unterwegs.
+					</p>
+				</section>
+			</div>
+		</m:content>
+	</m:Page>
+</mvc:View>

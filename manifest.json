@@ -1,0 +1,51 @@
+{
+  "_version": "1.8.0",
+  "sap.app": {
+	"id": "ampr.df9ry",
+	"type": "application",
+	"i18n": "i18n/i18n.properties",
+	"title": "{{appTitle}}",
+	"description": "{{appDescription}}",
+	"applicationVersion": {
+	  "version": "1.0.0"
+	}
+},
+"sap.ui": {
+	"technology" : "UI5",
+	"deviceTypes": { "desktop": true, "tablet": true, "phone": true	}
+},
+"sap.ui5": {
+		"rootView": { "viewName": "ampr.df9ry.view.App", "type": "XML", "async": true, "id": "app"	},
+		"dependencies": {
+	  	"minUI5Version": "1.30",
+	  	"libs": {	"sap.m": {} }
+	},
+	"models": {
+		"i18n": {
+			"type": "sap.ui.model.resource.ResourceModel",
+			"settings": { "bundleName": "ampr.df9ry.i18n.i18n"	}
+		}
+	},
+	"routing": {
+	  "config": {
+		"routerClass": "sap.m.routing.Router",
+		"viewType": "XML",
+		"viewPath": "ampr.df9ry.view",
+		"controlId": "app",
+		"controlAggregation": "pages",
+		"async": true
+  },
+		"routes": [
+			{ "pattern": "",                      "name": "home",                  "target": "home"                  },
+			{ "pattern": "datenschutzerklaerung", "name": "datenschutzerklaerung", "target": "datenschutzerklaerung" },
+			{ "pattern": "impressum",             "name": "impressum",             "target": "impressum"             }
+		],
+		"targets": {
+			"home" :                 { "viewId": "ampr.df9ry.home",                  "viewName": "Home"                  },
+			"datenschutzerklaerung": { "viewId": "ampr.df9ry.datenschutzerklaerung", "viewName": "Datenschutzerklaerung" },
+			"impressum":             { "viewId": "ampr.df9ry.impressum",             "viewName": "Impressum"             }
+		}
+	},
+	"resources": { "css": [ { "uri": "css/style.css" } ] }
+	}
+}

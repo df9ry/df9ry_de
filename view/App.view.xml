@@ -1,0 +1,8 @@
+<mvc:View
+	controllerName="ampr.df9ry.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true">
+	
+	<App id="app" class="myApp"/>
+</mvc:View>

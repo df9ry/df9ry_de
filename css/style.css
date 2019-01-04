@@ -1,0 +1,40 @@
+/*
+ * Styles for the DF9RY homepage
+ */
+
+.content {
+	padding: 25px;
+}
+
+.content h1 {
+	font-size: 250%;
+}
+
+.content h2 {
+	font-size: 150%;
+}
+
+.content h3 {
+	font-size: 125%;
+}
+
+.content .block {
+	line-height: 25%;
+	margin-left: 20px;
+}
+
+.home .banner img {
+	margin-left: 15px;
+	float: right;
+	border: 1px solid grey;
+}
+
+.home .banner ul {
+	font-weight: bold;
+	font-size: 125%;
+	line-height: 125%;
+}
+
+.sapMRb {
+	margin-right: 30px !important;
+}

@@ -1,0 +1,9 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<OverflowToolbar>
+		<Button type="Transparent" text="{i18n>homePage}"                   press=".onHome"                 />
+		<Link text="{i18n>mainPage}"  target="_blank" href="https://taniahagn.de"                           />
+		<ToolbarSpacer/>
+		<Button type="Transparent" text="{i18n>datenschutzerklaerung}"      press=".onDatenschutzerklaerung"/>
+		<Button type="Transparent" text="{i18n>impressum}"                  press=".onImpressum"            />
+	</OverflowToolbar>
+</core:FragmentDefinition>

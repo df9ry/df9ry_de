@@ -1,0 +1,21 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<OverflowToolbar>
+		<Button	type="Transparent" icon="sap-icon://menu2"	press=".onHamburger"/>
+		<Button type="Transparent" text="{i18n>homePage}" press=".onHome"/>	
+		<MenuButton type="Transparent" text="{i18n>projects}">
+			<Menu>
+				<MenuItem text="{i18n>projectAX25}"    press=".onProjectAX25" />
+				<MenuItem text="{i18n>projectDaisy}"   press=".onProjectDaisy"/>
+				<MenuItem text="{i18n>projectAll}"     press=".onProjectAll"  />
+			</Menu>
+		</MenuButton>	
+		<ToolbarSpacer/>
+		<MenuButton type="Transparent" text="{i18n>about}">
+			<Menu>
+				<MenuItem text="{i18n>aboutMe}"        press=".onAboutMe"     />
+				<MenuItem text="{i18n>aboutDARC}"      press=".onAboutDARC"   />
+				<MenuItem text="{i18n>aboutOVD20}"     press=".onAboutOVD20"  />
+			</Menu>
+		</MenuButton>	
+	</OverflowToolbar>
+</core:FragmentDefinition>
